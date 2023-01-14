@@ -111,3 +111,36 @@ img {
   font-size: 6rem;
   font-weight: 900;
 }
+
+/** Seccion Iconos **/
+.iconos {
+  padding: var(--separacion) 0;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .iconos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+.icono {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: calc( var(--separacion) / 2);
+}
+@media (min-width: ) {
+  .icono:last-of-type {
+    margin: 0;
+  }
+}
+.icono img{
+  width: 5rem;
+}
+.icono h3 {
+  color: var(--primario);
+  text-transform: uppercase;
+  margin-top: calc( var(--separacion) / 2);
+}
