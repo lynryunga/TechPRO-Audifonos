@@ -355,9 +355,6 @@ img {
     grid-column: 2 / 3;
   }
 }
-.formulario {
-
-}
 .formulario input[type="text"] {
   width: 100%;
   padding: 1rem;
